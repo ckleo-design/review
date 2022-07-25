@@ -1,0 +1,554 @@
+<!doctype html>
+<html lang="jp">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="株式会社STARTERSのウェブサイト。エンジニアになりたいけどなれない人、エンジニアを採りたいけど採れない企業。私たちはエンジニア教育環境のGAPを解消し、この両者を結びつけるお手伝いをしたいと考えています。">
+    <meta property="og:locale" content="ja_JP">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="株式会社STARTERS">
+    <meta property="og:description" content="株式会社STARTERSのウェブサイト。エンジニアになりたいけどなれない人、エンジニアを採りたいけど採れない企業。私たちはエンジニア教育環境のGAPを解消し、この両者を結びつけるお手伝いをしたいと考えています。">
+    <meta property="og:url" content="https://starters.co.jp/">
+    <meta property="og:site_name" content="株式会社STARTERS">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:description" content="株式会社STARTERSのウェブサイト。エンジニアになりたいけどなれない人、エンジニアを採りたいけど採れない企業。私たちはエンジニア教育環境のGAPを解消し、この両者を結びつけるお手伝いをしたいと考えています。">
+    <meta name="twitter:title" content="株式会社STARTERS">
+    <meta name="twitter:image" content="https://starters.co.jp/wp-content/uploads/2020/03/business-01.jpg">
+    <title>株式会社STARTERS</title>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <!-- custom CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header class="header_sp d-md-none w-100 bg-white sticky-top" style="height: 50px;">
+        <nav class="navbar bg-white ps-3">
+            <div class="header_left">
+                <a class="navbar-brand" href="https://starters.co.jp/">
+                    <img src="images/logo.png" alt="株式会社STARTERS" width="170">
+                </a>
+            </div>
+            <div class="header_right ">
+                <div class="btn btn-white" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"><i class="bi bi-list"></i>
+                </div>
+
+                <div class="offcanvas offcanvas-end" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+                    <div class="offcanvas-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="nav align-items-center w-100 text-center d-flex flex-column" id="navbar-1">
+                            <li class="nav-item"><a class="nav-link fw-500 display-1 mb-4" href="#new_business" data-bs-dismiss="offcanvas">事業説明</a></li>
+                            <li class="nav-item"><a class="nav-link fw-500 display-1 mb-4" href="#solution" data-bs-dismiss="offcanvas">事例</a></li>
+                            <li class="nav-item"><a class="nav-link fw-500 display-1 mb-4" href="#plan" data-bs-dismiss="offcanvas">料金体形</a></li>
+                            <li class="nav-item"><a class="nav-link fw-500 display-1 mb-4" href="#qa" data-bs-dismiss="offcanvas">よくあるご質問</a></li>
+                            <li class="nav-item"><button type="button" class="btn btn-secondary rounded-pill px-4"><a class="fw-500 text-white text-decoration-none display-2 mt-4" href="#contact" data-bs-dismiss="offcanvas">お問い合わせ<i class="bi bi-chevron-compact-right ps-2"></i></a></button></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section id="hero_section" class="w-100 pb-md-5 pb-0">
+        <header class="d-none d-md-block">
+            <nav class="navbar px-3 py-4">
+                <div class="header_left">
+                    <a class="navbar-brand" href="https://starters.co.jp/">
+                        <img src="images/logo.png" alt="株式会社STARTERS" width="215">
+                    </a>
+                </div>
+                <div class="header_right ">
+                    <ul class="nav align-items-center" id="navbar-1">
+                        <li class="nav-item"><a class="nav-link fw-500 display-6" href="#new_business">事業説明</a></li>
+                        <li class="nav-item"><a class="nav-link fw-500 display-6" href="#solution">事例</a></li>
+                        <li class="nav-item"><a class="nav-link fw-500 display-6" href="#plan">料金体形</a></li>
+                        <li class="nav-item"><a class="nav-link fw-500 display-6" href="#qa">よくあるご質問</a></li>
+                        <li class="nav-item"><button type="button" class="btn btn-secondary rounded-pill px-4 "><a class="fw-500 text-white text-decoration-none" href="#contact">お問い合わせ<i class="bi bi-chevron-compact-right ps-2"></i></a></button></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <div class="content py-3 px-3 py-md-5 px-md-5 mx-auto w-100 d-flex flex-row align-items-center justify-content-center flex-column flex-md-row">
+            <div class="hero_left w-md-50 w-100 order-1 order-md-0 mt-md-0 mt-4">
+                <h1 class="display-1 fw-bold">中小企業の<br><span class="text-secondary">新規事業創出</span>を<br class="d-none d-md-block">加速する</h1>
+                <p class="lead mt-3 mt-md-4 mb-5 display-6 lh-base fw-500">新規事業立ち上げで重要な仮説検証(アイデア検証、顧客検証、プロダクト検証)をスピーディかつ安価に実行し、<br class="d-none d-md-block">機会損失を防ぎ企業の成長を加速します。</p>
+                <div class="d-flex flex-column flex-md-row">
+                    <button type="button" class="display-6 fw-bold px-5 py-3 me-md-2 mb-3 mb-md-0 btn btn-lg btn-primary rounded-pill">無料相談する<i class="bi bi-chevron-compact-right ps-2"></i></button>
+                    <button type="button" class="display-6 fw-bold px-5 py-3 btn btn-lg btn-secondary rounded-pill"><a class="fw-500 text-white text-decoration-none" href="#contact">お問い合わせ<i class="bi bi-chevron-compact-right ps-2"></i></a></button>
+                </div>
+            </div>
+            <div class="hero_right flex-shrink-1 w-md-50 w-100 order-0 order-md-1">
+                <img class="w-100 d-none d-md-block" src="images/hero_image.png" alt="">
+                <img class="w-100 d-block d-md-none" src="images/hero_image_sp.png" alt="">
+            </div>
+        </div>
+    </section>
+    <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="container my-5 scrollspy-example" tabindex="0">
+
+        <section id="new_business" class="py-3">
+            <div class="content_box">
+                <img class="d-block d-md-none mx-auto" src="images/newbusiness_people.png" width="64" alt="">
+                <h2 class="display-2 mx-auto mb-4 text-center position-relative fw-bold">新規事業創出を<span class="text-secondary position-relative"><br class="d-block d-md-none">もっと早く、確実に!</span></h2>
+                <p class="intro display-5s lead text-left text-md-center mx-auto position-relative fw-500 dis">リーンスタートアップの考え方を軸に当社独自の事業開発プロセスで立ち上げにかかる時間とコストを<br class="d-none d-md-block">大幅に圧縮し、事業立ち上げの機会損失を防ぎ、お客様の事業立ち上げを実現します。</p>
+
+                <div class="content mt-5">
+
+                    <div class="business_ng border-0 shadow">
+                        <h3 class="mx-auto display-4 ps-md-0 ps-4 text-left text-md-center fw-bold bg-dark text-white py-3"><img class="business_ng_icon me-3 align-middle" src=" images/newbusiness_ng_icon.png" width="28">従来のよくある事業創出方法 </h3>
+                        <div class="block py-4 px-md-5 px-3">
+                            <div class="businessimg mb-4"><img class="w-100" src="images/newbusiness_ng.png" alt=""></div>
+                            <div class="detail py-5 bg-gray px-md-0 px-2">
+                                <p class="text-left text-md-center display-5 mb-3"><i class="bi bi-exclamation-circle-fill me-2 text-secondary"></i>1回あたりの検証サイクルが長いことで、軌道修正がしにくい</p>
+                                <ul class="">
+                                    <li class="text-left text-md-center display-6 mb-2"><i class="bi bi-check-lg me-2 text-secondary"></i>事業構想から立ち上がりまでに時間がかかりすぎる為、 機会損失のリスク</li>
+                                    <li class="text-left text-md-center display-6"><i class="bi bi-check-lg me-2 text-secondary"></i>事業の成否判断がリリース後になる為、 失敗の場合にかけたリソース・時間が無駄になる</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <img class="d-block d-md-none w-75 mt-4 mb-5 mx-auto" src="images/scroll_line.png" alt="">
+                    <div class="business_ok border-0 shadow">
+                        <h3 class="mx-auto display-4 ps-md-0 ps-4 text-left text-md-center fw-bold bg-danger text-white py-3"><img class="business_ok_icon me-3 align-middle" src="images/newbusiness_ok_icon.png" width="49">あるべき新規創出方法</h3>
+                        <div class="block py-4 px-md-5 px-3">
+                            <div class="businessimg mb-4"><img class="w-100" src="images/newbusiness_ok.png" alt=""></div>
+                            <div class="detail py-5 bg-gray px-md-0 px-2 d-flex align-items-center justify-content-between">
+                                <div class="left col-8">
+                                    <p class="text-left display-5 mb-3"><i class="bi bi-exclamation-circle-fill me-2 text-secondary"></i>1回あたりの検証サイクルが短いことで、事業成功まで軌道修正がしやすい</p>
+                                    <ul class="">
+                                        <li class="lh-base text-left display-6 mb-2"><i class="bi bi-check-lg me-2 text-secondary"></i>事業構想から立ち上がりまでに時間がかかりすぎる為、機会損失のリスクああああああ ああああああああああ</li>
+                                        <li class="lh-base text-left display-6"><i class="bi bi-check-lg me-2 text-secondary"></i>事業構想から立ち上がりまでに時間がかかりすぎる為、 機会損失のリスクああああああ ああああああああああ</li>
+                                    </ul>
+                                </div>
+                                <div class="right col-3"><img class="w-100" src="images/newbusiness_ok_2.png" alt=""></div>
+                            </div>
+                        </div>
+                    </div>
+                    <img class="d-block d-md-none w-75 mt-4 mb-5 mx-auto" src="images/scroll_line.png" alt="">
+                </div>
+            </div>
+        </section>
+        <section id="problem" class="">
+            <div class="content_box">
+                <img class="ttl_img d-block mx-auto d-none d-md-block" src="images/problem_ttl_img.png" width="718" alt="">
+                <img class="ttl_img d-block mx-auto w-100 d-md-none" src="images/problem_ttl_img.png" width="718" alt="">
+                <h2 class="text-center display-2 fw-bold mx-auto position-relative"><span class="display-3 d-block fw-bold">中小企業における</span>新規事業に<br class="d-block d-md-none">まつわる<span class="text-secondary">課題</span></h2>
+                <p class="lead my-4 display-6 text-md-center text-left fw-500 lh-base">中小企業のシステム開発を通じて新規事業創出における課題をみてきましたが、<br class="d-none d-md-block">中小企業においては下記3つの課題に集約されます。</p>
+                <div class="content d-flex flex-column flex-md-row justify-content-around">
+                    <div class="block col-md-4 p-md-5 pb-md-0 col-12 p-1 mb-md-0 mb-4">
+                        <img class="w-100" src="images/business_point1.png" alt="">
+                        <h3 class="display-5 mb-md-4 mb-3 text-center fw-bold">事業立ち上げがわからない</h3>
+                        <p class="display-6 text-left fw-normal lh-base">リーンスタートアップの考え方を軸に当社独自の事業開発プロセスで立ち上げにかかる時間とコストを大幅に圧縮し、事業立ち上げの機会損失を防ぎ、お客様の事業立ち上げを実現します。</p>
+                    </div>
+                    <div class="block col-md-4 p-md-5 pb-md-0 col-12 p-1 mb-md-0 mb-4">
+                        <img class="w-100" src="images/business_point2.png" alt="">
+                        <h3 class="display-5 mb-md-4 mb-3 text-center fw-bold">メンバー・能力が足りない</h3>
+                        <p class="display-6 text-left fw-normal lh-base">リーンスタートアップの考え方を軸に当社独自の事業開発プロセスで立ち上げにかかる時間とコストを大幅に圧縮し、事業立ち上げの機会損失を防ぎ、お客様の事業立ち上げを実現します。</p>
+                    </div>
+                    <div class="block col-md-4 p-md-5 pb-md-0 col-12 p-1">
+                        <img class="w-100" src="images/business_point3.png" alt="">
+                        <h3 class="display-5 mb-md-4 mb-3 text-center fw-bold">時間とお金がかかり不安</h3>
+                        <p class="display-6 text-left fw-normal lh-base">リーンスタートアップの考え方を軸に当社独自の事業開発プロセスで立ち上げにかかる時間とコストを大幅に圧縮し、事業立ち上げの機会損失を防ぎ、お客様の事業立ち上げを実現します。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="solution">
+            <div class="content_box">
+                <img class="ttl_img d-block mx-auto d-none d-md-block" src="images/solution_ttl_img.png" width="718" alt="">
+                <img class="ttl_img d-block mx-auto w-100 d-md-none" src="images/solution_ttl_img.png" width="718" alt="">
+                <h2 class="text-center display-2 mb-5 fw-bold mx-auto position-relative"><span class="display-3 d-block fw-bold">STARTERSならではの</span><span class="text-secondary">解消方法</span></h2>
+                <div class="content">
+                    <div class="block bg-white d-flex w-100 flex-column flex-md-row justify-content-around align-items-center mb-5 shadow">
+                        <div class="left col-12 col-md-6 p-3 p-md-5 order-1 order-md-0">
+                            <p class="mb-md-3 mb-0"><img src="images/solution_block1ttl.png" alt="" width="180"></p>
+                            <h3 class="display-4 fw-bold lh-base">仮説検証を積み上げ<br>新規事業を立ち上げます</h3>
+                            <p class=" display-6 fw-500 lh-base">リーンスタートアップの考え方を軸に当社独自の事業開発プロセスで立ち上げにかかる時間とコストを大幅に圧縮し、事業立ち上げの機会損失を防ぎ、お客様の事業立ち上げを実現します</p>
+                        </div>
+                        <div class="right col-12 col-md-6">
+                            <img class="w-100" src="images/solution_block1img.png" alt="">
+                        </div>
+                    </div>
+                    <div class="block bg-white d-flex w-100 flex-column flex-md-row justify-content-around align-items-center mb-5 shadow">
+                        <div class="left col-12 col-md-6 p-3 p-md-5 order-1 order-md-0">
+                            <p class="mb-md-3 mb-0"><img src="images/solution_block2ttl.png" alt="" width="180"></p>
+                            <h3 class="display-4 fw-bold lh-base">お客様・当社・顧客の<br>トライアングルで事業を立ち上げます</h3>
+                            <p class=" display-6 fw-500 lh-base">リーンスタートアップの考え方を軸に当社独自の事業開発プロセスで立ち上げにかかる時間とコストを大幅に圧縮し、事業立ち上げの機会損失を防ぎ、お客様の事業立ち上げを実現します</p>
+                        </div>
+                        <div class="right col-12 col-md-6">
+                            <img class="w-100" src="images/solution_block2img.png" alt="">
+                        </div>
+                    </div>
+                    <div class="block bg-white d-flex w-100 flex-column flex-md-row justify-content-around align-items-center shadow">
+                        <div class="left col-12 col-md-6 p-3 p-md-5 order-1 order-md-0">
+                            <p class="mb-md-3 mb-0"><img src="images/solution_block3ttl.png" alt="" width="180"></p>
+                            <h3 class="display-4 fw-bold lh-base">状況に合わせ必要なリソースを<br class="d-none d-md-block">必要なタイミングで提供</h3>
+                            <p class=" display-6 fw-500 lh-base">リーンスタートアップの考え方を軸に当社独自の事業開発プロセスで立ち上げにかかる時間とコストを大幅に圧縮し、事業立ち上げの機会損失を防ぎ、お客様の事業立ち上げを実現します</p>
+                        </div>
+                        <div class="right col-12 col-md-6">
+                            <img class="w-100" src="images/solution_block3img.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="build">
+            <div class="content_box">
+                <img class="ttl_img d-block mx-auto mb-3 d-none d-md-block" src="images/build_ttl_img.png" width="108" alt="">
+                <img class="ttl_img d-block mx-auto mb-3 d-block d-md-none" src="images/build_ttl_img.png" width="50" alt="">
+                <h2 class="text-center display-2s fw-bold mx-auto position-relative lh-base d-none d-md-block">お客様の新規事業リソースに<br>合わせて体制を構築</h2>
+                <h2 class="text-center display-4s fw-bold mx-auto position-relative lh-base d-block d-md-none">お客様の新規事業リソースに合わせて体制を構築</h2>
+                <div class="ttl_line mx-auto my-4 my-md-5 bg-danger"></div>
+                <p class="display-5s text-left text-md-center fw-500 lh-lg mb-5">新規事業開発に必要なリソースをすべて網羅・包括している企業は限られており、<br class="d-none d-md-block">特に中小企業においてはリソース不足が深刻な課題になっています。<br>その課題を解消するべく、当社は様々な職域毎にパートナー連携を組んでいるため、<br>お客様の体制やご要望に合わせて必要なリソースを提供いたします。</p>
+                <div class="content d-flex flex-column flex-md-row justify-content-center align-items-center gap-md-3 gap-4">
+                    <div class="block p-4 shadow col-md-6 col-12">
+                        <h3 class="mb-4 display-5 text-center fw-bold">事業責任者のみの場合</h3>
+                        <img class="w-100" src="images/build_content_1.png" alt="">
+                    </div>
+                    <div class="block p-4 shadow col-md-6 col-12">
+                        <h3 class="mb-4 display-5 text-center fw-bold">担当チームがある場合</h3>
+                        <img class="w-100" src="images/build_content_2.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="supply">
+            <div class="content_box">
+                <img class="ttl_img d-block mx-auto mb-3 d-none d-md-block" src="images/supply_ttl_img.png" width="85" alt="">
+                <img class="ttl_img d-block mx-auto mb-3 d-block d-md-none" src="images/supply_ttl_img.png" width="58" alt="">
+                <h2 class="text-center display-2s fw-bold mx-auto position-relative lh-base d-none d-md-block">様々なパートナー企業による<br>柔軟なリソースを提供</h2>
+                <h2 class="text-center display-4s fw-bold mx-auto position-relative lh-base d-block d-md-none">様々なパートナー企業による<br>柔軟なリソースを提供</h2>
+                <div class="ttl_line mx-auto my-4 my-md-5 bg-danger"></div>
+                <p class="display-5s text-left text-md-center fw-500 lh-lg mb-5">新規事業開発に必要なリソースをすべて網羅・ 包括している企業は限られており、<br>特に中小企業においてはリソース不足が深刻な課題になっています。</p>
+                <div class="content d-flex flex-wrap flex-column flex-md-row justify-content-between align-items-center col-12 gap-3">
+                    <div class="block shadow bg-white p-4 p-md-5 d-flex flex-wrap col-12 align-items-end justify-content-between">
+                        <img class="d-block d-md-none col-3" src="images/supply_icon_1.png" alt="" width="">
+                        <img class="d-block d-md-block d-none mx-auto" src="images/supply_icon_1.png" alt="" width="56">
+                        <h3 class="d-block display-4s text-left text-md-center fw-normal col-8 col-md-12">企画・戦略<br><span class="display-6 text-muted">当社提供</span></h3>
+                        <div class="block_line mx-auto my-3 my-md-4 bg-muted cold-12 align-items-end"></div>
+                        <p class="display-6 lh-base col-12">リーンスタートアップの考え方を軸に当社独自の事業開発プロセスで立ち上げにかかる時間とコストを大幅に圧縮し、事業立ち上げ</p>
+                    </div>
+                    <div class="block shadow bg-white p-4 p-md-5 d-flex flex-wrap col-12 align-items-end justify-content-between">
+                        <img class="d-block d-md-none col-3" src="images/supply_icon_2.png" alt="" width="">
+                        <img class="d-block d-md-block d-none mx-auto" src="images/supply_icon_2.png" alt="" width="56">
+                        <h3 class="d-block display-4s text-left text-md-center fw-normal col-8 col-md-12">開発<br><span class="display-6 text-muted">当社提供</span></h3>
+                        <div class="block_line mx-auto my-3 my-md-4 bg-muted cold-12 align-items-end"></div>
+                        <p class="display-6 lh-base col-12">リーンスタートアップの考え方を軸に当社独自の事業開発プロセスで立ち上げにかかる時間とコストを大幅に圧縮し、事業立ち上げ</p>
+                    </div>
+                    <div class="block shadow bg-white p-4 p-md-5 d-flex flex-wrap col-12 align-items-end justify-content-between">
+                        <img class="d-block d-md-none col-3" src="images/supply_icon_3.png" alt="" width="">
+                        <img class="d-block d-md-block d-none mx-auto" src="images/supply_icon_3.png" alt="" width="56">
+                        <h3 class="d-block display-4s text-left text-md-center fw-normal col-8 col-md-12">営業<br><span class="display-6 text-muted">パートナー提供</span></h3>
+                        <div class="block_line mx-auto my-3 my-md-4 bg-muted cold-12 align-items-end"></div>
+                        <p class="display-6 lh-base col-12">リーンスタートアップの考え方を軸に当社独自の事業開発プロセスで立ち上げにかかる時間とコストを大幅に圧縮し、事業立ち上げ</p>
+                    </div>
+                    <div class="block shadow bg-white p-4 p-md-5 d-flex flex-wrap col-12 align-items-end justify-content-between">
+                        <img class="d-block d-md-none col-3" src="images/supply_icon_4.png" alt="" width="">
+                        <img class="d-block d-md-block d-none mx-auto" src="images/supply_icon_4.png" alt="" width="56">
+                        <h3 class="d-block display-4s text-left text-md-center fw-normal col-8 col-md-12">マーケティング<br><span class="display-6 text-muted">パートナー提供</span></h3>
+                        <div class="block_line mx-auto my-3 my-md-4 bg-muted cold-12 align-items-end"></div>
+                        <p class="display-6 lh-base col-12">リーンスタートアップの考え方を軸に当社独自の事業開発プロセスで立ち上げにかかる時間とコストを大幅に圧縮し、事業立ち上げ</p>
+                    </div>
+                    <div class="block shadow bg-white p-4 p-md-5 d-flex flex-wrap col-12 align-items-end justify-content-between">
+                        <img class="d-block d-md-none col-3" src="images/supply_icon_5.png" alt="" width="">
+                        <img class="d-block d-md-block d-none mx-auto" src="images/supply_icon_5.png" alt="" width="56">
+                        <h3 class="d-block display-4s text-left text-md-center fw-normal col-8 col-md-12">資金調達<br><span class="display-6 text-muted">パートナー提供</span></h3>
+                        <div class="block_line mx-auto my-3 my-md-4 bg-muted cold-12 align-items-end"></div>
+                        <p class="display-6 lh-base col-12">リーンスタートアップの考え方を軸に当社独自の事業開発プロセスで立ち上げにかかる時間とコストを大幅に圧縮し、事業立ち上げ</p>
+                    </div>
+                    <div class="block shadow bg-white p-4 p-md-5 d-flex flex-wrap col-12 align-items-end justify-content-between">
+                        <img class="d-block d-md-none col-3" src="images/supply_icon_6.png" alt="" width="">
+                        <img class="d-block d-md-block d-none mx-auto" src="images/supply_icon_6.png" alt="" width="56">
+                        <h3 class="d-block display-4s text-left text-md-center fw-normal col-8 col-md-12">その他<br><span class="display-6 text-muted">当社提供</span></h3>
+                        <div class="block_line mx-auto my-3 my-md-4 bg-muted cold-12 align-items-end"></div>
+                        <p class="display-6 lh-base col-12">リーンスタートアップの考え方を軸に当社独自の事業開発プロセスで立ち上げにかかる時間とコストを大幅に圧縮し、事業立ち上げ</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section id="plan" class="bg-gray">
+            <div class="content_box">
+                <h2 class="text-center display-2s fw-bold mx-auto position-relative lh-base d-none d-md-block">料金体系</h2>
+                <h2 class="text-center display-4s fw-bold mx-auto position-relative lh-base d-block d-md-none">料金体系</h2>
+                <p class="display-5s text-left text-md-center fw-500 lh-lg mb-5">料金体系の簡単な本文がここに入る想定ですダミーテキスト</p>
+                <div class="content d-flex flex-md-row flex-column justify-content-center align-items-center gap-3">
+                    <div class="block p-3 p-md-5 shadow cold-12 col-md-6">
+                        <h3 class="mb-3 mb-md-4 display-4 text-center fw-bold">請負型</h3>
+                        <div class="block_line mx-auto my-3 my-md-4 bg-muted"></div>
+                        <img class="d-block mx-auto mb-3 mb-md-4 d-none d-md-block" src="images/plan_1.png" alt="請負型料金" width="243">
+                        <img class="d-block mx-auto mb-3 mb-md-4 d-block d-md-none" src="images/plan_1.png" alt="請負型料金" width="194">
+                        <p class="lh-base display-6">リーンスタートアップの考え方を軸に当社独自の事業開発プロセスで立ち上げにかかる時間とコストを大幅に圧縮し、事業立ち上げの機会損失を防ぎ、お客様の事業立ち上げを実現します</p>
+                    </div>
+                    <div class="block p-3 p-md-5 shadow cold-12 col-md-6">
+                        <h3 class="mb-3 mb-md-4 display-4 text-center fw-bold">レベニュー型</h3>
+                        <div class="block_line mx-auto my-3 my-md-4 bg-muted"></div>
+                        <img class="d-block mx-auto mb-3 mb-md-4 d-none d-md-block" src="images/plan_2.png" alt="レベニュー型料金" width="350">
+                        <img class="d-block mx-auto mb-3 mb-md-4 d-block d-md-none" src="images/plan_2.png" alt="レベニュー型料金" width="277">
+                        <p class="lh-base display-6">リーンスタートアップの考え方を軸に当社独自の事業開発プロセスで立ち上げにかかる時間とコストを大幅に圧縮し、事業立ち上げの機会損失を防ぎ、お客様の事業立ち上げを実現します</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="qa">
+            <div class="content_box">
+                <h2 class="text-center display-2s fw-bold mx-auto position-relative lh-base d-none d-md-block">よくある質問</h2>
+                <h2 class="text-center display-4s fw-bold mx-auto position-relative lh-base d-block d-md-none">よくある質問</h2>
+                <p class="display-5s text-left text-md-center fw-500 lh-lg mb-5">よくある質問の簡単な本文がここに入る想定ですダミーテキスト</p>
+                <div class="content mx-auto">
+                    <!-- よくあるご質問１ -->
+                    <div class="accordion mb-2 " id="accordionExample">
+                        <div class="accordion-item p-3 bg-gray border-0">
+                            <h3 class="accordion-header bg-gray d-flex flex-row align-items-center" id="headingOne">
+                                <span class="q-ttl display-4 fw-bold text-secondary d-none d-md-block">Q</span>
+                                <span class="q-ttl display-1 fw-bold text-secondary d-block d-md-none">Q</span>
+                                <span class="accordion-button bg-gray collapsed text-black fw-bold display-5 py-md-4 px-md-3 p-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_1" aria-expanded="true" aria-controls="collapse_1">
+                                    ここによくあるご質問を入れます
+                                </span>
+                            </h3>
+                            <div id="collapse_1" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="d-flex flex-row align-items-center">
+                                    <span class="q-ttl display-4 fw-bold text-secondary d-none d-md-block">A</span>
+                                    <span class="q-ttl display-1 fw-bold text-secondary d-block d-md-none">A</span>
+                                    <div class="accordion-body">
+                                        ここにご質問の返答内容を入れます。ダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキスト。
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- よくあるご質問２ -->
+                    <div class="accordion mb-2 " id="accordionExample">
+                        <div class="accordion-item p-3 bg-gray border-0">
+                            <h3 class="accordion-header bg-gray d-flex flex-row align-items-center" id="headingOne">
+                                <span class="q-ttl display-4 fw-bold text-secondary d-none d-md-block">Q</span>
+                                <span class="q-ttl display-1 fw-bold text-secondary d-block d-md-none">Q</span>
+                                <span class="accordion-button bg-gray collapsed text-black fw-bold display-5 py-md-4 px-md-3 p-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_1" aria-expanded="true" aria-controls="collapse_1">
+                                    ここによくあるご質問を入れます
+                                </span>
+                            </h3>
+                            <div id="collapse_1" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="d-flex flex-row align-items-center">
+                                    <span class="q-ttl display-4 fw-bold text-secondary d-none d-md-block">A</span>
+                                    <span class="q-ttl display-1 fw-bold text-secondary d-block d-md-none">A</span>
+                                    <div class="accordion-body">
+                                        ここにご質問の返答内容を入れます。ダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキスト。
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- よくあるご質問３ -->
+                    <div class="accordion mb-2 " id="accordionExample">
+                        <div class="accordion-item p-3 bg-gray border-0">
+                            <h3 class="accordion-header bg-gray d-flex flex-row align-items-center" id="headingOne">
+                                <span class="q-ttl display-4 fw-bold text-secondary d-none d-md-block">Q</span>
+                                <span class="q-ttl display-1 fw-bold text-secondary d-block d-md-none">Q</span>
+                                <span class="accordion-button bg-gray collapsed text-black fw-bold display-5 py-md-4 px-md-3 p-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_1" aria-expanded="true" aria-controls="collapse_1">
+                                    ここによくあるご質問を入れます
+                                </span>
+                            </h3>
+                            <div id="collapse_1" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="d-flex flex-row align-items-center">
+                                    <span class="q-ttl display-4 fw-bold text-secondary d-none d-md-block">A</span>
+                                    <span class="q-ttl display-1 fw-bold text-secondary d-block d-md-none">A</span>
+                                    <div class="accordion-body">
+                                        ここにご質問の返答内容を入れます。ダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキスト。
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- よくあるご質問４ -->
+                    <div class="accordion mb-2 " id="accordionExample">
+                        <div class="accordion-item p-3 bg-gray border-0">
+                            <h3 class="accordion-header bg-gray d-flex flex-row align-items-center" id="headingOne">
+                                <span class="q-ttl display-4 fw-bold text-secondary d-none d-md-block">Q</span>
+                                <span class="q-ttl display-1 fw-bold text-secondary d-block d-md-none">Q</span>
+                                <span class="accordion-button bg-gray collapsed text-black fw-bold display-5 py-md-4 px-md-3 p-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_1" aria-expanded="true" aria-controls="collapse_1">
+                                    ここによくあるご質問を入れます
+                                </span>
+                            </h3>
+                            <div id="collapse_1" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="d-flex flex-row align-items-center">
+                                    <span class="q-ttl display-4 fw-bold text-secondary d-none d-md-block">A</span>
+                                    <span class="q-ttl display-1 fw-bold text-secondary d-block d-md-none">A</span>
+                                    <div class="accordion-body">
+                                        ここにご質問の返答内容を入れます。ダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキスト。
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- よくあるご質問５ -->
+                    <div class="accordion mb-2 " id="accordionExample">
+                        <div class="accordion-item p-3 bg-gray border-0">
+                            <h3 class="accordion-header bg-gray d-flex flex-row align-items-center" id="headingOne">
+                                <span class="q-ttl display-4 fw-bold text-secondary d-none d-md-block">Q</span>
+                                <span class="q-ttl display-1 fw-bold text-secondary d-block d-md-none">Q</span>
+                                <span class="accordion-button bg-gray collapsed text-black fw-bold display-5 py-md-4 px-md-3 p-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_1" aria-expanded="true" aria-controls="collapse_1">
+                                    ここによくあるご質問を入れます
+                                </span>
+                            </h3>
+                            <div id="collapse_1" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="d-flex flex-row align-items-center">
+                                    <span class="q-ttl display-4 fw-bold text-secondary d-none d-md-block">A</span>
+                                    <span class="q-ttl display-1 fw-bold text-secondary d-block d-md-none">A</span>
+                                    <div class="accordion-body">
+                                        ここにご質問の返答内容を入れます。ダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキスト。
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="content_box bg-white pt-5 shadow">
+                <h2 class="text-center display-3l fw-bold mx-auto position-relative lh-base text-secondary mb-4 d-none d-md-block">お問い合わせ</h2>
+                <h2 class="text-center display-4s fw-bold mx-auto position-relative lh-base text-secondary mb-4 d-block d-md-none">お問い合わせ</h2>
+                <p class="display-5s text-center text-md-center fw-500 lh-lg mb-5">お問い合わせの簡単な本文がここに入る想定ですダミーテキスト</p>
+                <div class="content mx-auto pb-5">
+                    <form class="needs-validation mx-auto" novalidate>
+                        <div class="input-group mb-3 d-flex flex-column flex-md-row justify-content-around align-items-start">
+                            <label for="exampleFormControlInput1" class="form-label display-6 fw-bold col-md-3">区分</label>
+                            <select class="bg-gray col-md-8 col-12 text-dark border-0 p-2" aria-label="Default select example">
+                                <option class="display-6 fw-bold text-dark" selected value="新規事業開発の相談">新規事業開発の相談</option>
+                                <option class="display-6 fw-bold text-dark" value="新規事業開発の相談">新規事業開発の相談</option>
+                            </select>
+                        </div>
+
+                        <div class="input-group mb-3 d-flex flex-column flex-md-row justify-content-around align-items-start">
+                            <label for="exampleFormControlInput1" class="form-label display-6 fw-bold col-md-3">法人名称・屋号</label>
+                            <input type="text" class="bg-gray col-md-8 col-12 border-0 p-2" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" required>
+                        </div>
+
+                        <div class="input-group mb-3 d-flex flex-column flex-md-row justify-content-around align-items-start">
+                            <label for="exampleFormControlInput2" class="form-label display-6 fw-bold col-md-3">ご担当者名</label>
+                            <input type="text" class="bg-gray col-md-8 col-12 border-0 p-2" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" required>
+                        </div>
+
+                        <div class="input-group mb-3 d-flex flex-column flex-md-row justify-content-around align-items-start">
+                            <label for="exampleFormControlInput3" class="form-label display-6 fw-bold col-md-3">メールアドレス</label>
+                            <input type="email" class="bg-gray col-md-8 col-12 border-0 p-2" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" required>
+                        </div>
+
+                        <div class="input-group mb-4 d-flex flex-column flex-md-row justify-content-around align-items-start">
+                            <label for="exampleFormControlInput4" class="form-label display-6 fw-bold col-md-3">お問い合わせ内容</label>
+                            <textarea class="bg-gray col-md-8 col-12 border-0 p-2" id="exampleFormControlTextarea1" rows="7"></textarea>
+                        </div>
+
+                        <div class="privacyPolicyBox w-100 overflow-auto border border-gray p-3">
+                            <p>
+                                プライバシーポリシー（個人情報保護方針）
+
+                                株式会社○○（以下、「当社」という。）は，ユーザーの個人情報について以下のとおりプライバシーポリシー（以下、「本ポリシー」という。）を定めます。本ポリシーは、当社がどのような個人情報を取得し、どのように利用・共有するか、ユーザーがどのようにご自身の個人情報を管理できるかをご説明するものです。
+                                【１．事業者情報】
+                                法人名：株式会社○○
+                                住所：○○
+                                代表者：○○【２．個人情報の取得方法】
+                                当社はユーザーが利用登録をするとき、氏名・生年月日・住所・電話番号・メールアドレスなど個人を特定できる情報を取得させていただきます。
+                                お問い合わせフォームやコメントの送信時には、氏名・電話番号・メールアドレスを取得させていただきます。
+                                【３．個人情報の利用目的】
+                                取得した閲覧・購買履歴等の情報を分析し、ユーザー別に適した商品・サービスをお知らせするために利用します。また、取得した閲覧・購買履歴等の情報は、結果をスコア化した上で当該スコアを第三者へ提供します。
+
+                                【４．個人データを安全に管理するための措置】
+                                当社は個人情報を正確かつ最新の内容に保つよう努め、不正なアクセス・改ざん・漏えい・滅失及び毀損から保護するため全従業員及び役員に対して教育研修を実施しています。また、個人情報保護規程を設け、現場での管理についても定期的に点検を行っています。
+
+                                【５．個人データの共同利用】
+                                当社は、以下のとおり共同利用を行います。
+
+                                個人データの管理に関する責任者
+                                株式会社○○
+                                共同して利用する者の利用目的
+                                上記「利用目的」の内容と同様。
+                                利用項目
+                                氏名、住所、電話番号、メールアドレス
+                                共同して利用する者の範囲
+                                当社企業グループを構成する企業
+                                【６．個人データの第三者提供について】
+                                当社は法令及びガイドラインに別段の定めがある場合を除き、同意を得ないで第三者に個人情報を提供することは致しません。
+
+                                【７．保有個人データの開示、訂正】
+                                当社は本人から個人情報の開示を求められたときには、遅滞なく本人に対しこれを開示します。個人情報の利用目的の通知や訂正、追加、削除、利用の停止、第三者への提供の停止を希望される方は以下の手順でご請求ください。
+                                （各社請求方法を指定）
+                                送付先住所
+                                〒○○
+                                東京都○○
+                                株式会社○○　お問い合わせ窓口
+
+                                【８．個人情報取り扱いに関する相談や苦情の連絡先】
+                                当社の個人情報の取り扱いに関するご質問やご不明点、苦情、その他のお問い合わせはお問い合わせフォームよりご連絡ください。
+
+                                【９．SSL（Secure Socket Layer）について】
+                                当社のWebサイトはSSLに対応しており、WebブラウザとWebサーバーとの通信を暗号化しています。ユーザーが入力する氏名や住所、電話番号などの個人情報は自動的に暗号化されます。
+
+                                【１０．cookieについて】
+                                cookieとは、WebサーバーからWebブラウザに送信されるデータのことです。Webサーバーがcookieを参照することでユーザーのパソコンを識別でき、効率的に当社Webサイトを利用することができます。当社Webサイトがcookieとして送るファイルは、個人を特定するような情報は含んでおりません。
+                                お使いのWebブラウザの設定により、cookieを無効にすることも可能です。
+
+                                【１１．プライバシーポリシーの制定日及び改定日】
+                                制定：○○年○月○日
+                                改定：○○年○月○日
+                                改定：○○年○月○日
+
+                                【１２．免責事項】
+                                当社Webサイトに掲載されている情報の正確性には万全を期していますが、利用者が当社Webサイトの情報を用いて行う一切の行為に関して、一切の責任を負わないものとします。
+                                当社は、利用者が当社Webサイトを利用したことにより生じた利用者の損害及び利用者が第三者に与えた損害に関して、一切の責任を負わないものとします。
+
+                                【１３．著作権・肖像権】
+                                当社Webサイト内の文章や画像、すべてのコンテンツは著作権・肖像権等により保護されています。無断での使用や転用は禁止されています。
+
+                                【１４．リンク】
+                                当社Webサイトへのリンクは、自由に設置していただいて構いません。ただし、Webサイトの内容等によってはリンクの設置をお断りすることがあります。
+                            </p>
+                        </div>
+                        <div class="form-check my-3 ">
+                            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                            <label class="form-check-label" for="invalidCheck">
+                                個人情報保護方針に同意する
+                            </label>
+                            <div class="invalid-feedback">
+                                個人情報保護方針に同意をチェックしてください。
+                            </div>
+                        </div>
+                        <div class="d-flex flex-column flex-md-row justify-content-center align-items-center mt-5 mx-auto w-75 gap-3">
+                            <button type="reset" class="display-5s col-md-4 col-12 btn btn-primary rounded-pill px-5 py-3 me-xd-3 fw-bold bg-white text-secondary border border-danger">クリア</button>
+                            <button id="formSend" type="submit" class="display-5s col-md-4 col-12 btn btn-secondary rounded-pill px-5 py-3 ms-3 fw-bold" data-bs-toggle="modal" data-bs-target="#exampleModal">送信する<i class="bi bi-chevron-compact-right ps-2"></i></button>
+                        </div>
+                    </form>
+
+
+
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer class="bg-dark p-5 text-center">
+        <img class="d-block mx-auto mb-5" src="images/logo_white.png" alt="株式会社STARTERS" width="266">
+        <h2 class="display-6s fw-bold text-white text-center mb-3">株式会社STARTERS</h2>
+        <address class="fw-normal display-6s text-white text-center mb-3">大阪府大阪市北区天神橋1-12-6 天神橋ビル 8F&nbsp;&nbsp;<a class="text-white text-decoration-none" href="https://starters.co.jp/">https://starters.co.jp/</a>&nbsp;&nbsp;<a class="text-white text-decoration-none" href="mailto:info@starters.co.jp">info@starters.co.jp</a></address>
+        <ul class="d-flex justify-content-center">
+            <li><a class="fw-normal display-6s text-white text-decoration-none me-1" href="">プライバシーポリシー</a></li>
+            <li><a class="fw-normal display-6s text-white text-decoration-none ms-1" href="">個人情報保護方針</a></li>
+        </ul>
+        <small></small>
+    </footer>
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="js/form.js"></script>
+</body>
+
+</html>

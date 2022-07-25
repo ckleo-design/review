@@ -1,0 +1,10 @@
+#hero_section {
+    background: url("../images/hero_background.png") 85% 94% no-repeat;
+    background-size: 140%;
+}
+
+@media screen and (min-width:1440px) {
+    #hero_section .content {
+        width: 85% !important;
+    }
+}
